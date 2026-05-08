@@ -16,3 +16,55 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+
+.nav-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+nav ul{
+  display: flex;
+  gap: 24px;
+}
+
+nav li{
+  list-style: none;
+}
+
+nav ul a{
+  color: #707070;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+
+nav input{
+  color:#707070;
+  background-color: #F1F1F1;
+  font-size: 16px;
+  font-weight: 500;
+  height: 48px;
+  width: 508.94px;
+  font-family: "Poppins", sans-serif;
+  padding-left: 28px;
+  border-radius: 66px;
+  border: none;
+  outline: none;
+}
+
+nav figure{
+  position: relative;
+}
+
+nav i{
+  color: #707070;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 20px;
+}
