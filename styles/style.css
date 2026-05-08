@@ -24,6 +24,7 @@
   max-width: 1200px;
   margin: auto;
   margin-top: 50px;
+  margin-bottom: 63px;
 }
 
 nav ul{
@@ -67,4 +68,57 @@ nav i{
   top: 15px;
   right: 15px;
   font-size: 20px;
+}
+
+.hero-container{
+  background-color: #FEEAE9;
+  padding: 0 50px 0 50px;
+  display: flex;
+  max-width: 1200px;
+  border-radius: 25px;
+  margin: auto;
+  align-items: center;
+  gap: 150px;
+}
+
+.hero-container h1{
+  color: #1F1F1F;
+  font-size: 56px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 16px;
+}
+
+.hero-container p{
+  color: #4E4E4E;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 25px;
+}
+
+.hero-container span{
+  color: #FF136F;
+  font-size: 41px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 25px;
+}
+
+.hero-container button{
+  color: white;
+  background-color: #FF136F;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 25px;
+  padding: 16px 28px 16px 28px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+}
+
+.hero-container img{
+  height: 600px;
+  width: px;
 }
