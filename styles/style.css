@@ -1,0 +1,18 @@
+/* universal */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* poppins selections */
+.poppins{
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+
+/* inter selections */
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
